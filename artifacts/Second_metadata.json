@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "B",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "showB",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"third.sol": "Second"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"third.sol": {
+			"keccak256": "0x697423cc514b689a69a90a86e290c19298802c66882135a0cbdc3ba4d5970e3d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ed037feb5600fa5d8d66c5ea6458529bbf3ab6b1688f6e6921f8791d5cbd0b97",
+				"dweb:/ipfs/QmeXLLcrQPD2ut9TeD9GNXJgqHVJfTunbGW6YE6fX8dWNV"
+			]
+		}
+	},
+	"version": 1
+}
