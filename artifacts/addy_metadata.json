@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "message2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "t",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"address.sol": "addy"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"address.sol": {
+			"keccak256": "0x232ae88fceeeb1f8d2775826d72cbb118408a726790d69d8ebdb7084fde53c7c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6b72e627f87b0909ff08869113b4a645710b0848809e2aa327c3119abdba5ce3",
+				"dweb:/ipfs/QmfB31bzh4Ckfp3Reoy6Sop9AwjZ7fCPUT4hvbvzBPbCfD"
+			]
+		}
+	},
+	"version": 1
+}
