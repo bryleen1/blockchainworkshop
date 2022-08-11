@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "checkCount",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "amo",
+						"type": "int256"
+					}
+				],
+				"name": "depositMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"bank.sol": "myContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bank.sol": {
+			"keccak256": "0x9bc1c8c36aaca3fa5ca9e5954dc2e61d93570ba503aec258db9cb39d2d57fe65",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://23615043a9961e6da7ab51a7a7128866b241f7321076c4f096e4b60702a2b5a1",
+				"dweb:/ipfs/QmSeJ24mA43XGdACetreLqC2j1CeLph1uo3SfFmqMxJgy7"
+			]
+		}
+	},
+	"version": 1
+}
