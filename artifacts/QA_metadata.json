@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "toSomeone",
+						"type": "address"
+					}
+				],
+				"name": "fundsTransfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "showBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"this.sol": "QA"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"this.sol": {
+			"keccak256": "0xcf8cfa47739d1f526d2c5751327ca194a16661e4f53bbdd81bdf6d759b63698d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://695ebf7e2f01a90cf9ef56b06c8403358cab73ddb8d1c0e3edf89fdb5da5fd67",
+				"dweb:/ipfs/QmSV2KsrT9CV88dJhZ5vVcvbG95Q8VWhBNBhfRrbUqFUGz"
+			]
+		}
+	},
+	"version": 1
+}
